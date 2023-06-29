@@ -9,7 +9,7 @@ class MyWebView extends StatelessWidget {
 
   final Completer<WebViewController> _controller = Completer<WebViewController>();
 
-  MyWebView({
+  MyWebView({super.key, 
     required this.title,
     required this.selectedUrl,
   });
